@@ -13,4 +13,3 @@ cryptography
 pytz
 openai
 pycountry
-gunicorn
