@@ -12,7 +12,7 @@ async def cmd_scr(client, message):
         WELCOME_TEXT = f"""
 <b>Hello <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> !
 
-MASTER Checker  Has plenty of Commands . We Have Auth Gates , Charge Gates , Tools And Other Things .
+Master Checker Bot  Has plenty of Commands . We Have Auth Gates , Charge Gates , Tools And Other Things .
 
 Click Each of Them Below to Know Them Better .</b>
         """
@@ -87,7 +87,7 @@ MASTER Checker  ■■■
         text = f"""
 <b>🌟 Hello <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>!</b>
 
-<b>Welcome aboard the MASTER Checker! 🚀</b>
+<b>Welcome aboard the Master Checker! 🚀</b>
 
 <b>I am your go-to bot, packed with a variety of gates, tools, and commands to enhance your experience. Excited to see what I can do?</b>
 
@@ -266,14 +266,14 @@ Click Each of Them Below to Know Them Better.</b>
 
     if CallbackQuery.data == "close":
         await CallbackQuery.message.delete()
-        await CallbackQuery.message.reply_text("Enjoy Dadu, @MASTER_checker_bot")
+        await CallbackQuery.message.reply_text("Enjoy Bro, ")
 
 
     if CallbackQuery.data == "AUTH":
         AUTH_TEXT = f"""
 <b>Hello User!
 
-MASTER Checker  Auth Gates.
+Master Checker  Auth Gates.
 
 Click on each one below to get to know them better. .</b>
     """
@@ -299,7 +299,7 @@ Click on each one below to get to know them better. .</b>
             reply_markup=InlineKeyboardMarkup(AUTH_BUTTONS))
     if CallbackQuery.data == "Auth2":
         CHARGE_TEXT = """
-🔹 Stripe Auth Gates of MASTER Checker
+🔹 Stripe Auth Gates of Master Checker
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -324,7 +324,7 @@ Total Auth Commands: 1
         )
     if CallbackQuery.data == "Adyen2":
         CHARGE_TEXT = """
-🔹 Adyen Auth Gates of MASTER Checker
+🔹 Adyen Auth Gates of Master Checker
 🔹 Status: Inactive ❌
 
 🚀 Quick Commands Overview:
@@ -349,7 +349,7 @@ Total Auth Commands: 1
         )
     if CallbackQuery.data == "BRAINTREEVBV":
         CHARGE_TEXT = """
-🔹 Braintree Gates of MASTER Checker
+🔹 Braintree Gates of Master Checker
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -730,7 +730,7 @@ Total Auth Commands: 6
         HELPER_TEXT = f"""
 <b>Hello User!
 
-MASTER Checker  Helper.
+Master Checker  Helper.
 
 Click on each one below to get to know them better.</b>
     """
@@ -755,7 +755,7 @@ Click on each one below to get to know them better.</b>
 🚀 Quick Commands Overview:
 
 👤 Account Management:
-   1. Start Bot: /start@MASTER_checker_bot
+   1. Start Bot: /start
    2. Register: /register
    3. User ID: /id
    4. User Info: /info
