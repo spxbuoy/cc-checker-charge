@@ -27,8 +27,7 @@ bot = Client(
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("port", 4000))  #Get the port from environment or use 5000 from  FUNC.server_stats(host="0.0.0.0", port=port)
-    print("Done Bot Active ✅")
+        print("Done Bot Active ✅")
     print("NOW START BOT ONCE MY MASTER")
 
     bot.run()
