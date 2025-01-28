@@ -17,7 +17,7 @@ else:
     except:
         pass
 
-COLLECTIONS = client["ANOTHER_DATABASE"]
-BLACKLISTED_SKS = COLLECTIONS["ANOTHER_COLLECTION"]  # Change to the actual collection name
-TOKEN_DB = COLLECTIONS["CONFIG_COLLECTION"]           # Change to the actual collection name
-SKS_DB = COLLECTIONS["CONFIG_COLLECTION"]             # Change to the actual collection name
+COLLECTIONS = client["CONFIG_DATABASE"] 
+BLACKLISTED_SKS = COLLECTIONS["BLACKLISTED_SKS"] 
+TOKEN_DB = COLLECTIONS["TOKEN_DB"] 
+SKS_DB = COLLECTIONS["SKS_DB"]
