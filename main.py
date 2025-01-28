@@ -1,3 +1,5 @@
+import os
+from app import app
 from pyrogram import Client 
 import json
 from FUNC.server_stats import *
