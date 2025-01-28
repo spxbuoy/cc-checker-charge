@@ -42,7 +42,11 @@ Type /register to Continue
 
         if chat_type == "ChatType.PRIVATE" and status == "FREE":
             resp = f"""<b>
-q
+Premium Users Required ⚠️
+
+Message: Only Premium Users are Allowed to use bot in Personal . Although You Can Use Bot Free Here https://t.me/logsmine
+Buy Premium Plan Using /buy to Continue
+</b>"""
             await message.reply_text(resp ,  reply_to_message_id = message.id)
             return False , False
 
@@ -137,7 +141,7 @@ Type /register to Continue
             resp = """<b>
 Premium Users Required ⚠️
 
-Message: Only Premium Users are Allowed to use bot in Personal . Although You Can Use Bot Free Here https://t.me/nairobiangoon
+Message: Only Premium Users are Allowed to use bot in Personal . Although You Can Use Bot Free Here https://t.me/logsmine
 Buy Premium Plan Using /buy to Continue
 </b>"""
             await message.reply_text(resp , message_id=message.id)
