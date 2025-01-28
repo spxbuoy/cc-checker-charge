@@ -38,7 +38,7 @@ Deauthorized ❌
 
 Group Chat ID: {chat_id}
 
-Message: This Group is no longer Authorized to use Our Bot. Deauthorized By @amitonmoyx
+Message: This Group is no longer Authorized to use Our Bot. Deauthorized By @nairobiangoon
        </b> """
                 try:
                     await Client.send_message(chat_id, user_resp)
