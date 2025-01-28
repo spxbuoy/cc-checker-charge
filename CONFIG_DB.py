@@ -1,7 +1,7 @@
 import pymongo
 
 client = pymongo.MongoClient(
-        "set-your-mongo-url"
+        "mongodb+srv://myproject:myproject@myproject.wqcf3.mongodb.net/?retryWrites=true&w=majority&appName=myproject"
 )
 
 result = str(client)
