@@ -6,9 +6,9 @@ plugins = dict(root="BOT")
 
 with open("FILES/config.json", "r", encoding="utf-8") as f:
     DATA      = json.load(f)
-    API_ID    = DATA["API_ID"]
-    API_HASH  = DATA["API_HASH"]
-    BOT_TOKEN = DATA["BOT_TOKEN"]
+    API_ID    = DATA["24872155"]
+    API_HASH  = DATA["36560cde182f779d6fe129dcd1d8f527"]
+    BOT_TOKEN = DATA["8015410523:AAH2QPel_jq7lv5RKiNViu6Ih5_J-Cljntg"]
 
 user = Client( 
             "Scrapper", 
