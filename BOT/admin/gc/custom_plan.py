@@ -74,7 +74,7 @@ Receipt ID : MASTER-{receipt_id}
 This is a receipt for your plan. Save it in a Secure Place. This will help you if anything goes wrong with your plan purchases.
 
 Have a Good Day.
-- @MASTER_checker_bot
+- @checkskebot
 </b>"""
         try:
             await Client.send_message(user_id, user_resp)
