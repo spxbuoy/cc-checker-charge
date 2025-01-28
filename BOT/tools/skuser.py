@@ -92,7 +92,7 @@ SK:➺
 Last Updated: {last_updated}
 
 Checked By <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> 
-Bot by - <a href="tg://user?id=6745804180">Toͥnmͣoͫy</a>
+Bot by - <a href="tg://user?id=6622603977">nairobiangoon</a>
                     </b> """
             )
             refresh_count += 1
