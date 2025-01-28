@@ -3,7 +3,6 @@ import pymongo
 
 client = pymongo.MongoClient(
         "mongodb+srv://myproject:myproject@myproject.wqcf3.mongodb.net/?retryWrites=true&w=majority&appName=myproject"
-
 )
 result = str(client)
 
@@ -18,9 +17,9 @@ else:
     except:
         pass
 
-folder = client["MASTER_DATABASE"]
-usersdb = folder.USERSDB
-chats_auth = folder.CHATS_AUTH
-gcdb = folder.GCDB
-sksdb = client["SKS_DATABASE"].SKS
-confdb = client["SKS_DATABASE"].CONF_DATABASE
+folder = client["NEW_DATABASE"]
+usersdb = folder.NEW_USERS
+chats_auth = folder.NEW_CHATS
+gcdb = folder.NEW_GC
+sksdb = client["ANOTHER_DATABASE"].ANOTHER_COLLECTION
+confdb = client["ANOTHER_DATABASE"].CONFIG_COLLECTION
