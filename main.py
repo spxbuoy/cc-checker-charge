@@ -1,5 +1,3 @@
-import os
-from app import app
 from pyrogram import Client 
 import json
 from FUNC.server_stats import *
@@ -29,7 +27,7 @@ bot = Client(
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("port", 4000))  #Get the port from environment or use 5000 from  main.py(host="0.0.0.0", port=port)
+    port = int(os.environ.get("port", 4000))  #Get the port from environment or use 5000 from  FUNC.server_stats(host="0.0.0.0", port=port)
     print("Done Bot Active ✅")
     print("NOW START BOT ONCE MY MASTER")
 
