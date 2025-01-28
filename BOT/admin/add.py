@@ -36,7 +36,7 @@ async def cmd_add(client, message):
             chat_resp = (
                 "<b>✅ Authorized</b>\n\n"
                 f"<b>Group Chat ID:</b> <code>{chat_id}</code>\n\n"
-                "<i>This group is now authorized to use our bot. Authorized by @amitonmoyx.</i>"
+                "<i>This group is now authorized to use our bot. Authorized by @nairobiangoon.</i>"
             )
             try:
                 await client.send_message(chat_id, chat_resp)
