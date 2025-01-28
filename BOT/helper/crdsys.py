@@ -6,7 +6,7 @@ from pyrogram import Client, filters
 async def cmd_crdsystem(client, message):
     try:
         resp = f"""<b>
-💳 MASTER Checker ⚡ Credit System
+💳 Master Checker Kenya⚡ Credit System
 ━━━━━━━━━━━━━━
 ● AUTH GATES
    ➔ 1 credit per CC check
