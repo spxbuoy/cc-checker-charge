@@ -11,7 +11,7 @@ async def cmd_del(Client, message):
             open("FILES/config.json", "r", encoding="utf-8").read())["OWNER_ID"]
         if user_id not in OWNER_ID:
             resp = """<b>You Don't Have Permission To Use This Command.    
-Contact Bot Owner @amitonmoyx !</b>"""
+Contact Bot Owner @nairobiangoon !</b>"""
             await message.reply_text(resp)
             return
         else:
