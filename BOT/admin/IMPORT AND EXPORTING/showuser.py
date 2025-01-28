@@ -27,13 +27,13 @@ async def showuser(Client, message):
     try:
         user_id = str(message.from_user.id)
         OWNER_ID = json.loads(
-            open("FILES/config.json", "r", encoding="utf-8").read())["OWNER_ID"]
+            open("FILES/config.json", "r", encoding="utf-8").read())["6622603977"]
         if user_id not in OWNER_ID:
             resp = """𝐏𝐫𝐢𝐯𝐢𝐥𝐞𝐠𝐞 𝐍𝐨𝐭 𝐅𝐨𝐮𝐧𝐝 ⚠️
 
 𝐌𝐞𝐬𝐬𝐚𝐠𝐞: 𝐃𝐨 𝐏𝐞𝐫𝐟𝐨𝐫𝐦 𝐓𝐡𝐢𝐬 𝐀𝐜𝐭𝐢𝐨𝐧, 𝐘𝐨𝐮 𝐍𝐞𝐞𝐝 𝐀𝐝𝐦𝐢𝐧 𝐋𝐞𝐯𝐞𝐥 𝐏𝐨𝐰𝐞𝐫. 
 
-𝐂𝐨𝐧𝐭𝐚𝐜𝐭 @amitonmoyx 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨 ✅"""
+𝐂𝐨𝐧𝐭𝐚𝐜𝐭 @nairobiangoon 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨 ✅"""
             await message.reply_text(resp)
             return
 
