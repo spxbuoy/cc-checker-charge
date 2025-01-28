@@ -53,9 +53,9 @@ async def show_payment_methods(client, callback_query):
 📝 <b>Master Checker Kenya⚡️ Methods:</b>
 ━━━━━━━━━━━━━━
 
-💰 <b>MPESA NYMBER /PAY</b> - <code>+254702700072</code>
+💰 <b>MPESA NUMBER /PAY</b> - <code>+254702700072</code>
 
-💰 <b>BTC</b> - <code>COMING SOONj</code>
+💰 <b>BTC</b> - <code>COMING SOON</code>
 
 💰 <b>USDT [BEP20]</b> - <code>COMING SOON</code>
 
