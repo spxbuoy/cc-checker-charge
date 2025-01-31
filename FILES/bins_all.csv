@@ -11,3 +11,10 @@ BIN,Country,Flag,Brand,Type,Level,Bank
 550000,Australia,🇦🇺,MasterCard,Credit,Standard,Another Bank Australia
 400000,Germany,🇩🇪,Visa,Credit,Standard,Example Bank Germany
 550000,Germany,🇩🇪,MasterCard,Credit,Standard,Another Bank Germany
+BIN,Country,Flag,Brand,Type,Level,Bank
+411111,United States,🇺🇸,Visa,Credit,Standard,Chase Bank
+550000,United Kingdom,🇬🇧,MasterCard,Credit,Gold,Barclays
+340000,France,🇫🇷,American Express,Credit,Platinum,BNP Paribas
+601100,Canada,🇨🇦,Discover,Credit,Standard,TD Canada Trust
+453201,Germany,🇩🇪,Visa,Debit,Standard,Deutsche Bank
+510510,Australia,🇦🇺,MasterCard,Credit,Gold,Commonwealth Bank
