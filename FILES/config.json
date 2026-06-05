@@ -1,11 +1,11 @@
 {
-    "API_ID"       :  "23451425",
-    "API_HASH"     :  "28ecd18334ce0341e356433f19d0ae31",
-    "PHONE_NUMBER" :  "254785429940",
-    "BOT_TOKEN"    :  "7945471044:AAE_5yRQPrWPInaeX1xLfnq0HsGHlT3rOn4",
-    "DEBUG_BOT"    :  "spxcc_bot",
-    "OWNER_ID"     :  "7213451334",
-    "LOGS_CHAT"    :  "-1002494134084",
-    "THREADS"      :   15,
-    "BOT_BY"       :  "Bot - <a href=\"tg://user?id=7213451334\">SpiluxX</a>"
+    "API_ID"       :  20873866,
+    "API_HASH"     :  "235d8287c8d1286d354536e3d587a84a",
+    "PHONE_NUMBER" :  "94742239307",
+    "BOT_TOKEN"    :  "8754608234:AAHxsZMyKQKMLVx0QQBaYCgC-Z3ICKsw1lg",
+    "DEBUG_BOT"    :  true,
+    "OWNER_ID"     :  8340881349,
+    "LOGS_CHAT"    :  -4894444248,
+    "THREADS"      :  15,
+    "BOT_BY"       :  "Bot - <a href=\"tg://user?id=8340881349\">𝑺𝑷𝑰𝑫𝑬𝑹</a>"
 }
